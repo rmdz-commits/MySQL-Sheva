@@ -74,4 +74,8 @@ CREATE TABLE products(
 );
 
 
+insert into products (vend_id,prod_name,prod_price,prod_desc) VALUES (1,5 Ton Anvil', 6, 5 ton anvil');
 
+Insert Into products (vend id, prod_name,prod_price,prod_desc) VALUES (1, '1 Ton Anvil', 10, 1 ton anvil');
+
+insert into products (vend_id, prod_name,prod_price,prod_desc) VALUES (1,1 Ton Anvil', 15, 2 ton anvil');
