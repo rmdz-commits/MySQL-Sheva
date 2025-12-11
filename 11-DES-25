@@ -81,3 +81,14 @@ Insert Into products (vend id, prod_name,prod_price,prod_desc) VALUES (1,'1 Ton 
 insert into products (vend_id, prod_name,prod_price,prod_desc) VALUES (1,'1 Ton Anvil',15,'2 ton anvil');
 
 insert into products (vend_id,prod_name,prod_price,prod_desc) VALUES (3,'Detonator',13,'Detenator');
+
+
+
+CREATE TABLE orderitems(
+id int primary key auto_increment,
+order_num int,
+order_item int,
+pro_id int,
+quantity int,
+constraint fk_prod_id foreign key(pro_id) references products(pro_id)
+);
